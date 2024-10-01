@@ -8,16 +8,16 @@
             "NODE_VERSION": "none"
         }
     },
-    "hostRequirements": {
-        "gpu": true
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/nvidia-cuda:1": {}
-    },
-    "runArgs": [
-        "--gpus",
-        "all"
-    ],
+    // "hostRequirements": {
+    //     "gpu": true
+    // },
+    // "features": {
+    //     "ghcr.io/devcontainers/features/nvidia-cuda:1": {}
+    // },
+    // "runArgs": [
+    //     "--gpus",
+    //     "all"
+    // ],
     "customizations": {
         "vscode": {
             "extensions": [
