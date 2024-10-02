@@ -1,0 +1,19 @@
+{
+    "DATASET": {
+        "name": "ford_a",
+        "type": "matFile",
+        "file_paths": [
+            "raw"
+        ],
+        "binary": "true"
+    },
+    "root_data_path": "../data/FordA/",
+    
+    "formatted_data_path": "2022_08_11_formatted",
+    "formatting_requested": [
+        "parquet",
+        "create_split"
+    ],
+    "spark_cluster": "False",
+    "dataset_split" : [0.85,0.15]
+}

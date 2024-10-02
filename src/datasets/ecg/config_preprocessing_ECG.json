@@ -1,0 +1,17 @@
+{
+    "DATASET":
+    {
+		"name": "ecg",
+        "type": "matFile",
+        "file_paths": [
+            "PhysioNet/PhysioNetChallenge2020_Training_CPSC/Training_WFDB"
+        ]
+                        
+    },
+    "root_data_path": "/home/hutu/INFMEDIC/P_ECG/data_external",
+    "formatted_data_path": "../data/24_05_2021_ECG_beat_denoised",
+    "formatting_requested": ["parquet"] ,
+    "r_segmentation":  [0.35,0.55],
+    "filter_data": "True",
+    "spark_cluster": "False"
+}
